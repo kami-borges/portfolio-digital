@@ -1,184 +1,213 @@
 /*Fonts Geral */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Satisfy&display=swap');>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&display=swap');
+
 
 
 body {
-    font-family: "Spyce Rice", serif; /* sans-serif  */
-    color: #4db6eebf;;  /*   */
-    background: #f2f0f0;  /*   */
+  font-family: "Spicy Rice", system-ui;
+  /*  sans-serif  */
+  color: #f27cc1;
+  /*    */
+  background: #d1bfbf;
+  /*   */
 }
-
 
 a {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color:#3fd9ff;
 }
 
-a:hover {  /*pseudo-classe*/
-    color: #9102ea;
-    text-decoration: none;
+a:hover {
+  /*pseudo-classe*/
+  color: #e694c8;
+  text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Spicy Rice,";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Spicy Rice", system-ui;
 }
 
-/* Cabeçalho === Header */
+/*  Cabeçalho === Header */
 #header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 300px;
-    background: #481c86; /* fundo header vertical */
-    transition: all ease-in-out 2s;
-    z-index: 9999;
-    padding: 0 15px;
-    overflow-y: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  background: #7a5394;
+  /* fundo Header Vertical */
+  transition: all ease-in-out .5s;
+  z-index: 9999;
+  padding: 0 15px;
+  overflow-y: auto;
 }
 
 #header .perfil img {
-    margin: 15px auto;
-    display: block;
-    width: 120px;
-    border: 3px solid #d7b2f7;
-    box-shadow: 0px 5px 15px #1a1a1a ;
+  margin: 15px auto;
+  display: block;
+  width: 120px;
+  border: 3px solid #9e31b9;
+  box-shadow: 0px 5px 15px #1a1a1a;
 }
 
 .text-light a {
-    font-family: "Spicy Rice";
-    /* font-weight: 600; Para fonts Finas */
-    color: whitesmoke;
-    font-size: 30px;
+  font-family: "Spicy Rice";
+  /* font-weight: 600; Para fonts Finas */
+  color: whitesmoke;
+  font-size: 30px;
 }
 
 .text-light a:hover {
-    color: #0cc1c7;
-    transition: all .5s;
+  color: #ef70dec3;
+  transition: all .5s;
 }
 
 #header .perfil .social-links i {
-    font-size: 22px;
-    color: red;
-    background: whitesmoke;
-    border-radius: 50%;
-    margin-right: 8px;
-    text-align: center;
-    display: inline;
-    padding: 5px;
-    transition: 0.3s;
+  font-size: 22px;
+  color:#0f5470;
+  background: rgb(206, 179, 217);
+  border-radius: 50%;
+  margin-right: 8px;
+  text-align: center;
+  display: inline;
+  padding: 5px;
+  transition: 0.3s;
 }
 
 #header .perfil .social-links i:hover {
-    color: whitesmoke;
-    background: #363c42;
-    transition: all 0.3s;
+  color: rgb(185, 0, 194);
+  background: #282e35;
+  transition: all 0.3s;
 }
-/* fim header */
+
+/* Fim Header  */
 #main {
-    margin-left: 300px;
+  margin-left: 300px;
 }
 
 .container,
 .container-fluid {
-    padding-left: 30px;
-    padding-right: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
+
+
 
 /* Navigation Menu */
 /* Desktop Navigation */
 .nav-menu {
-    padding: 30px 0 0 0;
+  padding: 30px 0 0 0;
 }
 
 .nav-menu * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .nav-menu>ul>li {
-    position: relative;
-    white-space: nowrap;
+  position: relative;
+  white-space: nowrap;
 }
 
 .nav-menu a,
 .nav-menu a:focus {
-    display: flex;
-    align-items: center;
-    color: #a8a9b4;
-    padding: 12px 15px;
-    margin-bottom: 8px;
-    transition: 0.3s;
-    font-size: 15px;
+  display: flex;
+  align-items: center;
+  color: #ebd9d9;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 15px;
 }
 
+/* icones menu */
 .nav-menu a i,
 .nav-menu a:focus i {
-   font-size: 24px;
-   padding-right: 8px;
-   color: #fdb6b6;
+  font-size: 24px;
+  padding-right: 8px;
+  color: #b5b5b5;
 }
 
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
-    text-decoration: none;
-    color: #07c5ff;
+  text-decoration: none;
+  color: #74dcff;
 }
 
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-    color: #0592bd;
+  color: #0592bd;
 }
 
 /* Mobile Menu */
-.mobile-nav-toggle {
-    position: fixed;
-    right: 15px;
-    top: 15px;
-    z-index: 9998;
-    border: 0;
-    font-size: 24px;
-    transition: all 0.4s;
-    outline: none !important;
-    background: #149ddd;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 0;
-    border-radius: 50px;
-    cursor: pointer;
+.mobile-nav-toggle { 
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  background: #149ddd;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 .mobile-nav-active {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .mobile-nav-active #header {
-    left: 0px;
+  left: 0;
 }
 
-/* Resoluçao Mobile */
+
+/* Resolução Mobile */
 
 @media (max-width: 1199px) {
-    #header {
-        left: -300px;
-    }
+  #header {
+    left: -300px;
+  }
 
-    #main {
-        margin-left: 0;
-    }
+  #main {
+    margin-left: 0;
+  }
 
- .container,
- .container-fluid {
+  .container,
+  .container-fluid {
     padding-left: 12px;
     padding-right: 12px;
   }
+}
+
+/* Hero */
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/foto3.jpg) top center ;
+    bac
+    background-size: cover;
+}
+
+#hero:before {
+    content: "";
+    background: ;
 }
