@@ -6,7 +6,7 @@
 body {
   font-family: "Spicy Rice", system-ui;
   /*  sans-serif  */
-  color: #f27cc1;
+  color: #2e2631;
   /*    */
   background: #d1bfbf;
   /*   */
@@ -14,12 +14,12 @@ body {
 
 a {
   text-decoration: none;
-  color:#3fd9ff;
+  color:#522f4e7c;
 }
 
 a:hover {
   /*pseudo-classe*/
-  color: #e694c8;
+  color: #ad6060;
   text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ h6 {
   left: 0;
   bottom: 0;
   width: 300px;
-  background: #7a5394;
+  background: #8fbacf;
   /* fundo Header Vertical */
   transition: all ease-in-out .5s;
   z-index: 9999;
@@ -51,7 +51,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 3px solid #9e31b9;
+  border: 3px solid #df94f0;
   box-shadow: 0px 5px 15px #1a1a1a;
 }
 
@@ -63,7 +63,7 @@ h6 {
 }
 
 .text-light a:hover {
-  color: #ef70dec3;
+  color: #f2a2e7c3;
   transition: all .5s;
 }
 
@@ -80,7 +80,7 @@ h6 {
 }
 
 #header .perfil .social-links i:hover {
-  color: rgb(185, 0, 194);
+  color: rgb(119, 219, 199);
   background: #282e35;
   transition: all 0.3s;
 }
@@ -243,4 +243,82 @@ h6 {
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
+}
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+
+}
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+
+
+
+
+
+/* Seçoes Gral */
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg { /* bg = background */
+  background: # ;
+}
+
+.section-title {
+  padding-bottom: 30px;
+}
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 50px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
+  font-family: ;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+
+.section-title p {
+  margin-bottom: 0;
+  color: black ;
+/* font-size: ; */
+/* font-weight: ; */
+  font-family: "Open Sans";
+}
+
+/* # About */
+.about .content h3{
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6c
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  margin-bottom: 20PX;
+  display: flex;
+  align-items: center;
 }
