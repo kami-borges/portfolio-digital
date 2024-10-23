@@ -283,7 +283,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #173b6c;
-  font-family: ;
+  font-family:"Spicy Rice", serif; 
 }
 
 .section-title h2::after {
@@ -322,3 +322,23 @@ section {
   display: flex;
   align-items: center;
 }
+
+.about .content ul strong {
+  margin-right: 10px;
+  color: #303030;
+  font-weight: 200;
+}
+
+.about .content ul span {
+  color: #111;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.about .content p {
+  color: #10294b;
+  font-family: "Poppins";
+  font-weight: 600;
+  /* font-size ; opcional */ 
+}
+
